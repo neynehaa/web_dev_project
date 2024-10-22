@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Support Platform</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">MindWell</div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="profile-icon">
+            <img src="/images/person.png" alt="Profile Icon">
+        </div>
+    </nav>
+    <section id="about" class="section vision-section">
+        <div class="vision-content">
+            <div class="vision-image">
+                <img src="/images/vision.svg" alt="Vision Image">
+            </div>
+            <div class="vision-text">
+                <h2>Vision</h2>
+                <p>To empower individuals with the tools, resources, and support needed to achieve optimal mental health and well-being, fostering a world where mental wellness is accessible to everyone.</p>
+            </div>
+        </div>
+    </section>
+    <section id="mission" class="section mission-section">
+        <div class="mission-content">
+            <div class="mission-text">
+                <h2>Mission</h2>
+                <p>Our mission is to provide a comprehensive, inclusive, and user-friendly platform that offers mental health education, support services, and community engagement. We are committed to breaking the stigma surrounding mental health, promoting self-care, and delivering accessible solutions for anyone seeking to improve their mental well-being.</p>
+            </div>
+            <div class="mission-image">
+                <img src="/images/mission.svg" alt="Mission Image">
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section contact-section">
+        <div class="contact-content">
+            <div class="contact-text">
+                <h2>Send Us a Message</h2>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe">
+
+                    <label for="number">Number:</label>
+                    <input type="tel" id="number" name="number" placeholder="+977 9812345678">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com">
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your message here..."></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+                <p id="formMessage"></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="about.js"></script>
+</body>
+</html>

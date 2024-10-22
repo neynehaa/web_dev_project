@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ece7dd;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2b4857;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ece7dd;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #c7a8a3;
+    color: #ece7dd;
+    border-radius: 5px;
+}
+
+.profile-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.logo {
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ece7dd;
+}
+
+.logo:hover {
+    color: #555;
+    cursor: pointer;
+}
+
+.quiz-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top: 36px;
+    position: relative;
+}
+
+.quiz-container {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #000000;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+.quiz-container h2 {
+    margin-bottom: 20px;
+    color: #2b4857;
+    font-size: 24px;
+    font-weight: bold;
+}
+.quiz-options {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+.quiz-options li {
+    background-color: #829378;
+    color: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+.quiz-options li:hover {
+    background-color: #8d6b6b;
+    transform: scale(1.05);
+}
+.quiz-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.button {
+    background-color: #2b4857;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.button:hover {
+    background-color: #c7a8a3;
+    transform: scale(1.05);
+}
